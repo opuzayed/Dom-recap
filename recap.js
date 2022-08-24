@@ -1,4 +1,8 @@
-let numbers = [2, 4, 48, 56];
-console.log(numbers[3]);
-const today = new Date();
-console.log(today);
+let number = 123;
+if(typeof number == 'number')
+{
+    console.log('number');
+}
+else{
+    console.log('not a number');
+}
